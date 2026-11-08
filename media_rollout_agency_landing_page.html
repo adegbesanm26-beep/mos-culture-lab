@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MO's Culture Lab — Music PR, Transit Ads, Billboards & Media Strategy</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        obsidian: '#08060c',
+                        surface: '#110c1c',
+                        surfaceCard: '#191228',
+                        brandAccent: '#c77dff',
+                        brandPurple: '#9d4edd',
+                        brandDarkPurple: '#7b2cbf',
+                        brandGlow: '#e0aaff'
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        display: ['Syne', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #08060c;
+            color: #f3f4f6;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .bg-purple-grid {
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(157, 78, 221, 0.18) 0%, transparent 60%),
+                radial-gradient(rgba(199, 125, 255, 0.05) 1px, transparent 0);
+            background-size: 100% 100%, 32px 32px;
+        }
+        .glass-card {
+            background: rgba(25, 18, 40, 0.7);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(199, 125, 255, 0.12);
+        }
+        .glass-card:hover {
+            border-color: rgba(199, 125, 255, 0.35);
+            box-shadow: 0 0 25px rgba(157, 78, 221, 0.15);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #ffffff 0%, #e0aaff 40%, #9d4edd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden selection:bg-brandPurple selection:text-white">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-obsidian/90 backdrop-blur-xl border-b border-purple-900/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo System -->
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brandDarkPurple via-brandPurple to-brandAccent flex items-center justify-center text-white font-display font-extrabold text-xl shadow-lg shadow-purple-900/40">
+                    MO
+                </div>
+                <div>
+                    <span class="font-display font-bold text-lg tracking-wider text-white block leading-tight">MO'S <span class="text-brandAccent">CULTURE LAB</span></span>
+                    <span class="text-[10px] text-purple-300/60 font-medium tracking-widest uppercase block">Campaign Architecture</span>
+                </div>
+            </a>
+            
+            <!-- Navigation Links -->
+            <nav class="hidden md:flex items-center gap-8 text-xs font-semibold text-gray-300 uppercase tracking-wider">
+                <a href="#services" class="hover:text-brandAccent transition-colors">Services</a>
+                <a href="#packages" class="hover:text-brandAccent transition-colors">Tiers</a>
+                <a href="#rollouts" class="hover:text-brandAccent transition-colors">Case Studies</a>
+                <a href="#booking" class="hover:text-brandAccent transition-colors">Book Campaign</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/2348165104663" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-bold text-xs hover:bg-emerald-500/20 transition-all">
+                    <i data-lucide="message-square" class="w-4 h-4"></i>
+                    <span>WhatsApp Us</span>
+                </a>
+                <a href="#booking" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-brandPurple to-brandAccent text-white font-extrabold text-xs sm:text-sm hover:brightness-110 transition-all shadow-lg shadow-purple-950">
+                    <span>Launch Brief</span>
+                    <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- HERO SECTION -->
+        <section class="relative min-h-[80vh] flex items-center justify-center bg-purple-grid pt-12 pb-20 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+                <!-- Status Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surfaceCard border border-purple-500/20 text-xs font-semibold tracking-wide text-brandAccent mb-8 shadow-inner">
+                    <span class="w-2.5 h-2.5 rounded-full bg-brandAccent animate-ping"></span>
+                    MO'S CULTURE LAB — 360° ENTERTAINMENT, TRANSIT & MEDIA MARKETING
+                </div>
+                
+                <!-- Headline -->
+                <h1 class="font-display text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.08] mb-6">
+                    AMPLIFYING SOUNDS. <br/>
+                    BUILDING BRANDS. <br/>
+                    <span class="text-gradient">MOVING CULTURE.</span>
+                </h1>
+                
+                <!-- Subheadline -->
+                <p class="max-w-3xl mx-auto text-gray-300 text-base sm:text-lg mb-10 leading-relaxed">
+                    Strategic music marketing, digital PR, LED & static billboard placements, BRT transit advertising, Radio/TV airplays, and high-impact event publicity.
+                </p>
+
+                <!-- Hero CTAs -->
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-16">
+                    <a href="#booking" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-brandPurple to-brandAccent text-white font-extrabold text-sm hover:brightness-110 transition-all shadow-xl shadow-purple-950 flex items-center justify-center gap-2">
+                        Start Campaign Brief
+                        <i data-lucide="send" class="w-4 h-4"></i>
+                    </a>
+                    <a href="#services" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-surfaceCard border border-purple-500/20 text-white font-bold text-sm hover:bg-purple-900/20 transition-all flex items-center justify-center gap-2">
+                        <i data-lucide="layers" class="w-4 h-4 text-brandAccent"></i>
+                        Explore Roster
+                    </a>
+                </div>
+
+                <!-- Strategic Pillar Cards -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto border-t border-purple-900/30 pt-10">
+                    <div class="p-4 rounded-2xl bg-surfaceCard/80 border border-purple-500/10 text-center">
+                        <div class="font-display text-lg font-bold text-brandAccent">Digital & PR</div>
+                        <div class="text-xs text-gray-400 font-medium mt-1">DSPs, Press & Creators</div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-surfaceCard/80 border border-purple-500/10 text-center">
+                        <div class="font-display text-lg font-bold text-white">Outdoor Billboards</div>
+                        <div class="text-xs text-gray-400 font-medium mt-1">LED & Static Displays</div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-surfaceCard/80 border border-purple-500/10 text-center">
+                        <div class="font-display text-lg font-bold text-brandGlow">Transit Ads</div>
+                        <div class="text-xs text-gray-400 font-medium mt-1">BRT & Shuttle Routes</div>
+                    </div>
+                    <div class="p-4 rounded-2xl bg-surfaceCard/80 border border-purple-500/10 text-center">
+                        <div class="font-display text-lg font-bold text-purple-300">Radio & TV</div>
+                        <div class="text-xs text-gray-400 font-medium mt-1">Nationwide Airplay</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="py-24 relative bg-surface/60 border-t border-purple-900/20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-bold text-brandAccent uppercase tracking-widest block mb-2">360° Execution Roster</span>
+                    <h2 class="font-display text-3xl sm:text-5xl font-extrabold">Services We Render</h2>
+                    <p class="text-gray-400 text-sm mt-3">From digital streaming growth and viral PR to physical street takeover and broadcast distribution, we build campaigns that convert.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Service 1: Music Marketing & PR Campaigns -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-brandPurple/20 text-brandAccent flex items-center justify-center mb-6">
+                                <i data-lucide="music-4" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="font-display text-xl font-bold mb-2">Music Marketing & PR</h3>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                                End-to-end artist rollout solutions designed to drive real listener retention and cultural momentum across digital DSPs.
+                            </p>
+                        </div>
+                        <div class="border-t border-purple-900/30 pt-4 text-xs text-gray-300 space-y-2">
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Strategic Release Rollouts</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Spotify, Audiomack & Apple Music Promos</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Playlist Placements & Discovery Campaigns</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Blog Features, Press Releases & Media Coverage</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Influencer & Creator Amplification</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Ads across YouTube, TikTok, Google & Snapchat</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Billboard Placements -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-brandPurple/20 text-brandGlow flex items-center justify-center mb-6">
+                                <i data-lucide="monitor" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="font-display text-xl font-bold mb-2">Billboard Placements</h3>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                                Dominate the streets with high-impact outdoor billboard advertising designed for maximum visibility, crowd recall, and brand power.
+                            </p>
+                        </div>
+                        <div class="border-t border-purple-900/30 pt-4 text-xs text-gray-300 space-y-2">
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Premium LED Digital Billboard Campaigns</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Static Billboard Advertising</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Strategic Prime Location Selection</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Creative Outdoor Display Optimization</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Flexible Durations & Nationwide Placements</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: Event PR & Media Relations -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-brandPurple/20 text-brandAccent flex items-center justify-center mb-6">
+                                <i data-lucide="sparkles" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="font-display text-xl font-bold mb-2">Event PR & Media Relations</h3>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                                From intimate showcases to large-scale events, we manage publicity that drives attendance, viral conversation, and media attention.
+                            </p>
+                        </div>
+                        <div class="border-t border-purple-900/30 pt-4 text-xs text-gray-300 space-y-2">
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Event Publicity Strategy & Press Outreach</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> On-Site Media Coordination</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Influencer Attendance & Content Coverage</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Pre, During & Post Event Social Buzz</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Post-Event Media Amplification</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Creative Consulting -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-brandPurple/20 text-purple-300 flex items-center justify-center mb-6">
+                                <i data-lucide="lightbulb" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="font-display text-xl font-bold mb-2">Creative Consulting</h3>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                                We work closely with artists and brands to shape creative concepts that resonate, convert, and leave lasting impressions.
+                            </p>
+                        </div>
+                        <div class="border-t border-purple-900/30 pt-4 text-xs text-gray-300 space-y-2">
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-purple-300"></i> Visual Rollout Concepts & Campaign Themes</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-purple-300"></i> Content Direction & Social Storytelling</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-purple-300"></i> Influencer Collaboration Strategy</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-purple-300"></i> Brand Positioning for Launches</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: Shuttle Bus & BRT Advertising -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-brandPurple/20 text-brandGlow flex items-center justify-center mb-6">
+                                <i data-lucide="bus" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="font-display text-xl font-bold mb-2">Shuttle Bus & BRT Advertising</h3>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                                Take your brand directly to the streets with impactful transit advertising that delivers continuous exposure across high-density routes.
+                            </p>
+                        </div>
+                        <div class="border-t border-purple-900/30 pt-4 text-xs text-gray-300 space-y-2">
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Shuttle Bus Ad Placements</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> BRT Exterior & Interior Solutions</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> High-Traffic Route & Audience Targeting</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Creative Artwork Adaptation</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandGlow"></i> Daily, Weekly & Monthly Campaigns</div>
+                        </div>
+                    </div>
+
+                    <!-- Service 6: Radio & TV Airplays -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <div class="w-12 h-12 rounded-xl bg-brandPurple/20 text-brandAccent flex items-center justify-center mb-6">
+                                <i data-lucide="radio" class="w-6 h-6"></i>
+                            </div>
+                            <h3 class="font-display text-xl font-bold mb-2">Radio & TV Airplays</h3>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">
+                                Amplify your reach with strategic broadcast campaigns that connect your music or message with millions of listeners daily.
+                            </p>
+                        </div>
+                        <div class="border-t border-purple-900/30 pt-4 text-xs text-gray-300 space-y-2">
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Radio Airplay Across Top Stations</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> TV Commercial & Music Video Placements</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Strategic Media Buying & Planning</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Interview & Media Appearance Coordination</div>
+                            <div class="flex items-center gap-2"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-brandAccent"></i> Airplay Monitoring & Progress Reports</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICE TIERS -->
+        <section id="packages" class="py-24 relative border-t border-purple-900/30">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-bold text-brandAccent uppercase tracking-widest block mb-2">Service Tiers</span>
+                    <h2 class="font-display text-3xl sm:text-5xl font-extrabold mb-4">Rollout Execution Packages</h2>
+                    <p class="text-gray-400 text-xs sm:text-sm">Select a package below to populate your brief and request a tailored campaign proposal.</p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Tier 1 -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <span class="text-xs font-bold text-brandAccent uppercase tracking-wider block mb-1">Tier 01 — Digital Sprint</span>
+                            <h3 class="font-display text-2xl font-bold mb-3">Music PR & DSP Push</h3>
+                            <p class="text-gray-400 text-xs mb-6">Designed for upcoming releases seeking playlist placements, blog press, and targeted creator seeding.</p>
+                            
+                            <ul class="text-xs text-gray-300 space-y-3 mb-8 border-t border-purple-900/30 pt-6">
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> Spotify, Audiomack & Apple Pitching</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> Press Release & Blog Coverage</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> TikTok & YouTube Creator Seeding</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> Digital Ad Execution & Campaign Report</li>
+                            </ul>
+                        </div>
+                        <button onclick="selectPackageTier('Music PR & DSP Push Tier 01')" class="w-full py-3.5 rounded-xl bg-purple-900/20 border border-purple-500/30 hover:bg-brandPurple hover:text-white text-brandAccent font-extrabold text-xs uppercase tracking-wider transition-all">
+                            Request Custom Quote
+                        </button>
+                    </div>
+
+                    <!-- Tier 2 -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between border-2 border-brandAccent relative bg-surfaceCard">
+                        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-brandAccent text-obsidian font-extrabold text-[10px] uppercase tracking-wider shadow-lg">
+                            Most Popular
+                        </div>
+
+                        <div>
+                            <span class="text-xs font-bold text-brandGlow uppercase tracking-wider block mb-1">Tier 02 — Hybrid Rollout</span>
+                            <h3 class="font-display text-2xl font-bold mb-3">360° Media & Transit Push</h3>
+                            <p class="text-gray-400 text-xs mb-6">Combines online digital amplification with physical BRT transit ads and targeted radio airplay.</p>
+                            
+                            <ul class="text-xs text-gray-300 space-y-3 mb-8 border-t border-purple-900/30 pt-6">
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> Full Music PR & DSP Playlist Pitching</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> BRT & Shuttle Bus Ad Placement</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> Radio Airplay Push on Top Stations</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandAccent"></i> Strategic Visual Rollout & Creative Direction</li>
+                            </ul>
+                        </div>
+                        <button onclick="selectPackageTier('360 Media & Transit Push Tier 02')" class="w-full py-4 rounded-xl bg-gradient-to-r from-brandPurple to-brandAccent text-white font-extrabold text-xs uppercase tracking-wider hover:brightness-110 transition-all shadow-lg shadow-purple-950">
+                            Request Custom Quote
+                        </button>
+                    </div>
+
+                    <!-- Tier 3 -->
+                    <div class="glass-card p-8 rounded-3xl flex flex-col justify-between">
+                        <div>
+                            <span class="text-xs font-bold text-brandGlow uppercase tracking-wider block mb-1">Tier 03 — Full Takeover</span>
+                            <h3 class="font-display text-2xl font-bold mb-3">Culture Dominion Takeover</h3>
+                            <p class="text-gray-400 text-xs mb-6">Complete nationwide push featuring prime LED digital billboards, Radio/TV airplay, and event PR.</p>
+                            
+                            <ul class="text-xs text-gray-300 space-y-3 mb-8 border-t border-purple-900/30 pt-6">
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandGlow"></i> Prime LED Digital Billboard Placements</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandGlow"></i> Nationwide Radio & TV Commercial Rotation</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandGlow"></i> Complete Event PR & Media Coordination</li>
+                                <li class="flex items-center gap-2.5"><i data-lucide="check-circle" class="w-4 h-4 text-brandGlow"></i> Dedicated MO Creative Director & Strategy</li>
+                            </ul>
+                        </div>
+                        <button onclick="selectPackageTier('Culture Dominion Takeover Tier 03')" class="w-full py-3.5 rounded-xl bg-purple-900/20 border border-purple-500/30 hover:bg-brandPurple hover:text-white text-brandAccent font-extrabold text-xs uppercase tracking-wider transition-all">
+                            Request Custom Quote
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO CASE STUDIES -->
+        <section id="rollouts" class="py-24 relative bg-surface/40 border-t border-purple-900/30">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-xs font-bold text-brandAccent uppercase tracking-widest block mb-2">Track Record</span>
+                    <h2 class="font-display text-3xl sm:text-5xl font-extrabold mb-3">Campaign Case Studies</h2>
+                    <p class="text-gray-400 text-xs sm:text-sm">Explore how we combine transit, digital PR, and broadcast airplay for maximum impact.</p>
+                </div>
+
+                <div id="portfolioGrid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <!-- Javascript populates interactive cards -->
+                </div>
+            </div>
+        </section>
+
+        <!-- BOOKING FORM -->
+        <section id="booking" class="py-24 relative border-t border-purple-900/30">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="glass-card p-8 sm:p-12 rounded-3xl relative overflow-hidden border border-purple-500/20">
+                    <div class="mb-8">
+                        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brandPurple/20 border border-purple-500/30 text-brandAccent text-xs font-bold mb-3">
+                            <i data-lucide="send" class="w-3.5 h-3.5"></i> CLIENT PORTAL
+                        </span>
+                        <h2 class="font-display text-3xl sm:text-4xl font-extrabold">Book Your Campaign Brief</h2>
+                        <p class="text-gray-400 text-xs sm:text-sm mt-2">Fill out your project details. We will formulate a strategic rollout plan and contact you within 2 hours.</p>
+                    </div>
+
+                    <form id="campaignForm" class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">Brand / Artist Name *</label>
+                                <input type="text" id="clientName" required placeholder="e.g. Artist Name / Record Label / Brand" class="w-full bg-obsidian border border-purple-900/40 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-brandAccent transition-all">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">Contact Email or Phone *</label>
+                                <input type="text" id="clientContact" required placeholder="adegbesan.m26@gmail.com or 08165104663" class="w-full bg-obsidian border border-purple-900/40 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-brandAccent transition-all">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">Primary Service Requested *</label>
+                                <select id="campaignType" required class="w-full bg-obsidian border border-purple-900/40 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-brandAccent transition-all">
+                                    <option value="Music Marketing & PR Campaigns">Music Marketing & PR Campaigns</option>
+                                    <option value="Billboard Placements (LED & Static)">Billboard Placements (LED & Static)</option>
+                                    <option value="Shuttle Bus & BRT Advertising">Shuttle Bus & BRT Advertising</option>
+                                    <option value="Radio & TV Airplays">Radio & TV Airplays</option>
+                                    <option value="Event PR & Media Relations">Event PR & Media Relations</option>
+                                    <option value="Creative Consulting">Creative Consulting & Positioning</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">Package Tier</label>
+                                <input type="text" id="selectedTierInput" readonly value="360 Media & Transit Push Tier 02" class="w-full bg-surfaceCard border border-brandAccent/40 rounded-xl px-4 py-3.5 text-sm text-brandAccent font-semibold">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-2">Project Brief & Campaign Target Notes</label>
+                            <textarea id="projectNotes" rows="4" placeholder="Mention launch date, target locations (e.g. Lekki BRT routes, specific radio stations), or custom goals..." class="w-full bg-obsidian border border-purple-900/40 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-brandAccent transition-all"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-brandPurple to-brandAccent text-white font-extrabold text-sm uppercase tracking-wider hover:brightness-110 transition-all shadow-xl shadow-purple-950 flex items-center justify-center gap-2">
+                            <span>Submit Brief via WhatsApp</span>
+                            <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- CASE STUDY DETAIL MODAL -->
+    <div id="caseStudyModal" class="fixed inset-0 z-50 bg-obsidian/95 backdrop-blur-md hidden flex items-center justify-center p-4">
+        <div class="glass-card max-w-2xl w-full p-6 sm:p-8 rounded-3xl relative border border-purple-500/20">
+            <button onclick="closeModal()" class="absolute top-6 right-6 text-gray-400 hover:text-white p-2">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            
+            <span id="modalTag" class="text-[10px] font-bold uppercase tracking-wider text-brandAccent px-3 py-1 rounded-full bg-brandPurple/20 border border-brandAccent/30">Category</span>
+            <h3 id="modalTitle" class="font-display text-2xl font-bold text-white mt-3 mb-2">Campaign Title</h3>
+            <p id="modalDesc" class="text-xs text-gray-400 mb-6 leading-relaxed">Campaign execution description...</p>
+            
+            <div class="grid grid-cols-2 gap-4 border-y border-purple-900/30 py-4 mb-6 text-center">
+                <div>
+                    <div class="text-[10px] uppercase text-gray-500">Execution Scope</div>
+                    <div id="modalStreams" class="font-bold text-sm text-white">0</div>
+                </div>
+                <div>
+                    <div class="text-[10px] uppercase text-gray-500">Primary Outcome</div>
+                    <div id="modalOutcome" class="font-bold text-sm text-brandAccent">0</div>
+                </div>
+            </div>
+
+            <a href="#booking" onclick="closeModal()" class="w-full py-3 rounded-xl bg-gradient-to-r from-brandPurple to-brandAccent text-white font-extrabold text-xs uppercase tracking-wider block text-center hover:brightness-110">
+                Book Similar Campaign
+            </a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-obsidian border-t border-purple-900/30 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div>
+                <div class="font-display font-bold text-lg text-white">MO'S <span class="text-brandAccent">CULTURE LAB</span></div>
+                <p class="text-xs text-gray-400 mt-1">Amplifying Sounds. Building Brands. Moving Culture.</p>
+            </div>
+            <div class="text-xs text-gray-400 space-y-1">
+                <div>Email: <a href="mailto:adegbesan.m26@gmail.com" class="text-brandAccent hover:underline">adegbesan.m26@gmail.com</a></div>
+                <div>WhatsApp / Phone: <a href="https://wa.me/2348165104663" class="text-emerald-400 hover:underline">+234 816 510 4663</a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const caseStudies = [
+            {
+                title: "Afrobeats Single & BRT Transit Takeover",
+                tag: "Transit & Digital PR",
+                desc: "Combined Lagos BRT bus wrap placements along high-density routes with Spotify playlist pitching, blog press coverage, and TikTok creator amplification.",
+                streams: "15 BRT Buses + DSP Pitching",
+                outcome: "Top 10 Afrobeats Chart Push"
+            },
+            {
+                title: "LED Digital Billboard & Radio Rotation",
+                tag: "OOH & Broadcast",
+                desc: "Secured prime LED digital billboard slots in Lekki & VI paired with peak-time daily radio airplay rotation across top stations in Lagos and Abuja.",
+                streams: "5 Key Radio Stations + LED Billboard",
+                outcome: "High-Recall City Takeover"
+            },
+            {
+                title: "Concert Launch Event PR & Media Coordination",
+                tag: "Event PR",
+                desc: "Managed end-to-end event publicity, red carpet press coordination, influencer attendance, and post-event media write-ups across top entertainment outlets.",
+                streams: "40+ Press & Creator Guests",
+                outcome: "Sold-Out Event & PR Coverage"
+            }
+        ];
+
+        function renderCaseStudies() {
+            const grid = document.getElementById('portfolioGrid');
+            if (!grid) return;
+            grid.innerHTML = '';
+            caseStudies.forEach((item, index) => {
+                const card = document.createElement('div');
+                card.className = 'glass-card p-6 rounded-3xl cursor-pointer transition-all duration-300 hover:-translate-y-1 flex flex-col justify-between';
+                card.onclick = () => openModal(index);
+                card.innerHTML = `
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-wider text-brandAccent px-2.5 py-1 rounded-full bg-brandPurple/20 border border-brandAccent/30">
+                            ${item.tag}
+                        </span>
+                        <h3 class="font-display text-lg font-bold text-white mt-4 mb-2">${item.title}</h3>
+                        <p class="text-xs text-gray-400 line-clamp-2 leading-relaxed mb-6">${item.desc}</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-2 border-t border-purple-900/30 pt-4 text-center">
+                        <div><span class="block text-[9px] uppercase text-gray-500">Execution Scope</span><span class="font-bold text-xs text-white">${item.streams}</span></div>
+                        <div><span class="block text-[9px] uppercase text-gray-500">Outcome</span><span class="font-bold text-xs text-brandAccent">${item.outcome}</span></div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function selectPackageTier(tierName) {
+            const input = document.getElementById('selectedTierInput');
+            if (input) input.value = tierName;
+            document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Modal Handlers
+        function openModal(idx) {
+            const data = caseStudies[idx];
+            document.getElementById('modalTag').innerText = data.tag;
+            document.getElementById('modalTitle').innerText = data.title;
+            document.getElementById('modalDesc').innerText = data.desc;
+            document.getElementById('modalStreams').innerText = data.streams;
+            document.getElementById('modalOutcome').innerText = data.outcome;
+            document.getElementById('caseStudyModal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('caseStudyModal').classList.add('hidden');
+        }
+
+        // Form Submit
+        document.getElementById('campaignForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const clientName = document.getElementById('clientName').value;
+            const contact = document.getElementById('clientContact').value;
+            const service = document.getElementById('campaignType').value;
+            const tier = document.getElementById('selectedTierInput').value;
+            const notes = document.getElementById('projectNotes').value;
+
+            const msg = `Hello MO! I would like to book a campaign brief:\n\n*Brand/Artist:* ${clientName}\n*Contact:* ${contact}\n*Service Requested:* ${service}\n*Tier:* ${tier}\n*Brief Notes:* ${notes || 'N/A'}`;
+            window.open(`https://wa.me/2348165104663?text=${encodeURIComponent(msg)}`, '_blank');
+        });
+
+        window.onload = function() {
+            renderCaseStudies();
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        };
+    </script>
+</body>
+</html>
+```
+
+### Key Changes Applied:
+1. **Removed Reach Guarantees**: Removed numeric estimated reach calculators and promises, focusing on execution deliverable scopes (e.g., *DSP Pitching, BRT Ad Placements, Radio Rotation, Press Coverage*).
+2. **Obsidian + Purple Aesthetic**:
+   - Deep obsidian background (`#08060c`).
+   - Deep midnight violet cards (`#110c1c` / `#191228`).
+   - Vibrant neon purple & orchid highlights (`#c77dff`, `#9d4edd`, `#7b2cbf`).
+   - Ambient purple grid glows and sleek glowing borders across header, buttons, and service modules.
